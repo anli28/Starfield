@@ -82,7 +82,7 @@ class OddballParticle implements Particle //uses an interface
   OddballParticle(){
     x = (float)(Math.random() * 200);
     y = (float)(Math.random() * 200);
-    z = 100;
+    z = -200;
   }
 
   public void move(){
